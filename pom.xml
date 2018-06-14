@@ -23,6 +23,7 @@
     <description>aem-solr</description>
 
     <modules>
+        <module>dependencies</module>
         <module>core</module>
         <module>ui.apps</module>
         <module>ui.content</module>
@@ -522,6 +523,25 @@
                 <groupId>com.day.cq.wcm</groupId>
                 <artifactId>cq-wcm-taglib</artifactId>
                 <version>5.7.4</version>
+                <scope>provided</scope>
+            </dependency>
+            <!-- SolrJ -->
+            <dependency>
+                <groupId>org.apache.servicemix.bundles</groupId>
+                <artifactId>org.apache.servicemix.bundles.solr-solrj</artifactId>
+                <version>7.2.1_1</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.servicemix.bundles</groupId>
+                <artifactId>org.apache.servicemix.bundles.noggit</artifactId>
+                <version>0.8_1</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>3.4.10</version>
                 <scope>provided</scope>
             </dependency>
 
