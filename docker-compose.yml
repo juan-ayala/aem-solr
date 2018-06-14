@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+    solr:
+        image: solr:7.3.1-alpine
+        ports:
+            - "8983:8983"
+        volumes:
+            - ./solrdata:/opt/solr/server/solr/mycores
+        entrypoint:
+          - docker-entrypoint.sh
+          - solr-precreate
+          - aemsolr

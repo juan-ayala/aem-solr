@@ -74,3 +74,6 @@ buildNumber.properties
 ### IntelliJ ###
 .idea/
 *.iml
+
+### Docker
+solrdata/
