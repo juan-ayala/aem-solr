@@ -544,6 +544,13 @@
                 <version>3.4.10</version>
                 <scope>provided</scope>
             </dependency>
+            <!-- JSoup -->
+            <dependency>
+                <groupId>org.jsoup</groupId>
+                <artifactId>jsoup</artifactId>
+                <version>1.11.3</version>
+                <scope>provided</scope>
+            </dependency>
 
             <!-- Testing -->
             <dependency>
